@@ -5,5 +5,5 @@ import { defineConfig } from "vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "https://moe-builds.github.io/Portfolio/",
+  base: "/Portfolio/",
 });
